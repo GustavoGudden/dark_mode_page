@@ -1,0 +1,62 @@
+D.O.M
+
+Document Object Model 
+padrao de como acessar e modificar elemento html
+
+
+
+DOM VS BOM 
+
+BOM:BROWSER OBJECT Model
+
+TUDO QUE ESTA DENTO DO WINDOW 
+
+Manipulando elementos 
+
+
+Metodos 
+-tag,id,classes 
+
+
+adcionar e deletar elemento 
+
+Document.cratelement(elemento)  //cria um novo 
+Document.removechild(elemento)  //remove
+Document.appendchild(elemento)  //adiociona
+Document.replaceChild(new,old)  //substitui
+
+
+
+Trabalando com estilos 
+classes
+
+element.classList.add("")adiciona  
+element.classList.remove("")remove  
+element.classList.toggle("")
+// se ja estiver ativo ele remove se nao estiver ele coloca  
+
+
+Colocar estilo diretamente 
+
+Document.getelementbytagname("p").style.color = "blue";
+
+
+EVENTOS
+  tipos 
+
+  mouserouver:tipo o hover 
+mouseout   ;tipo o houver  so que quando sai
+
+
+
+eventos de atualizaçao 
+
+
+adcionar eventos 
+
+botao,addeventListener ("click" outrafunçao);
+
+
+atributo html
+
+h1 onclick = texto()
